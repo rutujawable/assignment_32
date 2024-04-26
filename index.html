@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>JS array
+
+    </title>
+</head>
+
+<body>
+
+
+       <h1>JAVASCRIPT ARRAYS</h1>
+
+       <script>
+        
+
+
+     const students = ["Samarth", "rutuja", "mahesh"];
+     console.log(students);
+
+     console.log(students[1]);
+
+    students.push("rohini");
+
+    console.log(students);
+
+    students.pop();
+
+    console.log(students);
+
+
+    students.unshift("Anushka");
+
+    console.log(students);
+
+    students.shift();
+
+    console.log(students);
+
+
+
+    // implemeting queue by using array by using 'push' and 'shift' method
+
+
+    students.push("divya");
+    console.log(students);
+
+    students.shift();
+    console.log(students);
+
+
+    students.splice( 1,2,"shobha","rutika");
+    console.log(students);
+
+ console.log(students.join());
+
+ console.log(students.join("*"));
+
+
+ students.reverse();
+
+ console.log(students);
+
+//  ascending and descending order
+
+students.sort();
+console.log(students);
+
+ students.reverse();
+ console.log(students);
+
+
+ const index = students.indexOf("rutika");
+ console.log(index);
+
+
+
+ console.log(students.includes("rutuja"));
+
+
+ console.log(students.includes("sanika"));
+
+       </script>
+
+
+
+
+    
+</body>
+</html>
